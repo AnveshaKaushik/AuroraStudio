@@ -8,6 +8,16 @@
 html, body {
     height: 100%;
     width: 100%;
+}
+
+#wrap {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    position: relative;
+    z-index: 10;
+    width: 100%;
     overflow-x: hidden;
 }
 
@@ -67,7 +77,7 @@ nav {
     text-decoration: none;
     color: rgba(0, 0, 0, 0.7);
     position: relative;
-    z-index: 9;
+    z-index: 10;
 }
 
 .nav-part2 h4:hover a{
@@ -227,7 +237,7 @@ nav {
     padding: 6vw;
     margin-top: 6%;
     position: relative;
-    z-index: 9;
+    z-index: 10;
 }
 
 #page2-bottom h1{
@@ -288,6 +298,7 @@ nav {
 #mini-text {
     display: flex;
     gap: 0.5vw;
+    padding-bottom: 2vw;
 }
 
 #mini-circle{
@@ -317,7 +328,7 @@ nav {
 .elem h2{
     font-size: 2.8vw;
     position: relative;
-    z-index: 9;
+    z-index: 10;
 }
 
 .elem .overlay {
@@ -348,7 +359,7 @@ nav {
 }
 
 #page-4 {
-    height: 100vw;
+    height: 60vw;
     width: 100%;
     background-color: #EFEAE3;
     position: relative;
@@ -388,3 +399,138 @@ nav {
     width: 50%;
     border-radius: 1.5vw;
 }
+
+#scroller-container{
+    height: 90vh;
+    width: 100%;
+    padding: 4vw 3vw;
+    background-color: #EFEAE3;
+    position: relative;
+}
+
+
+#page-5 {
+    height: 90vh;
+    width: 100%;
+}
+
+#footer {
+    height: 90vh;
+    width: 100%;
+    background: linear-gradient(#FE320A, black);
+    color: white;
+    position: fixed;
+    bottom: 0;
+    z-index: 9;
+    padding: 1vw 3vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+#footer h1{
+    font-size: 23vw;
+    font-weight: 650;
+    line-height: 24vw;
+}
+
+#footer-top{
+    height: 18vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 13vw;
+    margin-top: 8vw;
+}
+
+#top1 h3{
+    font-size: 2vw;
+    line-height: 3vw;
+    border-bottom: 1px solid rgb(218, 207, 207);
+}
+
+#footer-bottom {
+    border-top: 2px solid #dadada;
+    height: 10vh;
+    width: 100%;
+    padding: 1vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#footer-bottom h3{
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+#footer-bottom a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.5vw;
+}
+
+#mini-t{
+    display: flex;
+    padding: 3vw 0;
+    gap: 0.3vw;
+}
+
+#mini-c {
+    height: 0.8vw;
+    width: 0.8vw;
+    border-radius: 50%;
+    background-color: #FE320A;
+}
+
+#mini-t h5 {
+    font-weight: 400;
+}
+
+/*  Swiper  */
+
+html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #EFEAE3;
+      font-family: "Montserrat", sans-serif;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 50%;
+      height: 75%;
+    }
+
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #EFEAE3;
+      border-left: 1px solid rgb(179, 170, 170);
+      border-right: 1px solid rgb(179, 170, 170);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 2vw;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 40%;
+      height: 40%;
+      margin: 2vw 13vw;
+    }
+
+    .swiper-slide {
+      width: 100%;
+    }
