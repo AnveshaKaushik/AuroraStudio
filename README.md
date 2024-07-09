@@ -28,6 +28,17 @@ cd aurora-studio
 
 3. Open index.html in your preferred web browser.
 
+- Screenshots from Website
+
+  ![image](https://github.com/AnveshaKaushik/AuroraStudio/assets/106867281/0daeaa0c-6e60-43e2-a183-4f8b89107789)
+
+  ![image](https://github.com/AnveshaKaushik/AuroraStudio/assets/106867281/364c14af-fde8-4d3a-b639-e820bcefd660)
+
+  ![image](https://github.com/AnveshaKaushik/AuroraStudio/assets/106867281/76dd1892-a876-4687-8c2c-debf611ec1fd)
+
+![image](https://github.com/AnveshaKaushik/AuroraStudio/assets/106867281/13efa1b1-165f-40b3-9333-2bfeb9fcc38e)
+
+![image](https://github.com/AnveshaKaushik/AuroraStudio/assets/106867281/32716ab7-1f14-4a5f-afdb-98f485611348)
 
 - Usage
   
